@@ -27,8 +27,6 @@ def main(global_config, **settings):
     config.add_view(home, route_name='home',
                           renderer='templates/mytemplate.pt')
 
-    config.add_static_view(name='fanstatic/lesscss_example',
-                           path='pyramid_lesscss_sample:resources')
     config.add_route('bootstrap', '/bootstrap')
     config.add_view(home2, route_name='bootstrap',
                           renderer='templates/mytemplate.pt')
