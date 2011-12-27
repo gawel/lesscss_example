@@ -1,0 +1,3 @@
+[submodule "lesscss_example/resources/bootstrap"]
+	path = lesscss_example/resources/bootstrap
+	url = https://github.com/twitter/bootstrap.git
